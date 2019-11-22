@@ -6,6 +6,14 @@ Models:
 - Passenger
 - Ride
 
+Driver -< Rides >- Passanger
+
+- Driver has many rides
+- Driver has many passengers through rides
+- Ride belongs to a Driver and a Passenger
+- Passenger has many rides
+- Passenger has many drivers through rides
+
 ## methods
 
 ### Driver
